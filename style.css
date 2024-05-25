@@ -1,0 +1,271 @@
+body {
+    background-color:#160e2e; /*cor fundo*/
+
+  
+  }
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: italic;
+
+
+  }
+
+  header { 
+    background-color: rgb(36, 36, 36);
+    color: white;
+    height: 70px;
+    display: flex;
+    justify-content:space-between;
+    border-radius: 20px;
+    position: sticky;
+    z-index: 1;
+    top: 10px;
+  }
+  .logo {
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 40px;
+    border-radius: 10px;
+    border: 3px;
+    border-color: red;
+  }
+  .cabecario{
+    height: 70px;
+    width: 400px;
+    margin-top: 25px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  
+  .projetos:hover {
+    color: red;
+    text-shadow: 2px 2px 4px blue;
+  
+  }
+  
+  /* Parte do cabeçario */
+  
+  .imagem-perfil{
+    height: 290px;
+    margin-top: 40px;
+    margin-left: 40px;
+    border-radius: 20px;
+  }
+  
+  .primeira-section {
+    background-color: rgb(5, 5, 5);
+    height: 300px;
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+  }
+
+  .primeira-section-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .audio {
+    margin-top: 20px;
+    margin-left: 200px;
+  }
+  /* primeira linha de fotos */
+  
+  
+  a, p {
+    color: white;
+  }
+  
+  h2, h1 {
+    text-shadow: 2px 2px 4px blue ;
+  }
+  .segunda-secao {
+    background-color: rgb(5, 5, 5);
+    width: 100;
+    height: 300px;
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .titulo-segunda-secao {
+    color: red;
+    text-shadow: 2px 2px 4px blue;
+  }
+  
+  .divisao-talentos { 
+    display: flex;
+    height: 350px;
+    width: 100%;
+    justify-content: space-between;
+    justify-content: center;
+    color: white;
+    margin-top: 50px;
+    gap: 30px;
+  
+  }
+  
+  .divisao1 {
+    background-color: rgb(5, 5, 5);
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .divisao2 {
+    background-color: rgb(5, 5, 5);
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  .divisao3 {
+    background-color: rgb(5, 5, 5);
+    height: auto;
+    width: 200px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  /* Segunda linha de fotos */
+  
+  .fotos {
+    width: auto;
+    height: 700px;
+    background-color:rgb(34, 32, 32);
+    margin-top:20px ;
+  }
+  
+  .imags {
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 400px;
+    width: 200px;
+    background-color: rgb(8, 8, 9);
+    border-radius: 10px;
+  
+  }
+  /* Divisao das fotos */
+  
+  .alinhamento {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  
+  }
+  .row1 {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    object-fit: cover;
+    z-index: 0;
+   
+  }
+  
+  .row2 {
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
+    color: white;
+    object-fit: cover;
+    z-index: 0;
+   
+  }
+
+  video::-webkit-media-controls {
+    display: none !important;
+  }
+
+  video::-moz-media-controls {
+    display: none !important;
+  }
+
+  video::-ms-media-controls {
+    display: none !important;
+  }
+
+  video::-o-media-controls {
+    display: none !important;
+  }
+
+  video::media-controls {
+    display: none !important;
+  }
+
+   /*começo rodape*/
+  footer {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    background-color:rgb(0, 0, 0);
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+  
+  }
+  .infos {
+    color: white;
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    margin-left: 100px;
+    
+  }
+  .forms { 
+    background-color:rgb(0, 0, 0);
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+  }
+
+  .formulario-borda {
+    border-radius: 20px;
+  }
+
+
+  
+  .redes-sociais {
+    height: 75px;
+    width: auto;
+    margin-top: 50px;
+    margin-right: 40px;
+  }
+  
+  .fotos-redes-sociais {
+    height: auto;
+    width: 75px;
+    margin-left: 10px;
+    border-radius: 10px;
+  }
+  /* fim rodape*/
